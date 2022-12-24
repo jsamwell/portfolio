@@ -1,0 +1,29 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000035;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header > img {
+    filter: invert();
+    width: 70px;
+}
+.buscador {
+
+}
+#boxfind {
+    width: 100px;
+    text-align: center;
+    border-color: #fafafa50;
+    border-radius: 10px;
+    background-color: transparent;
+}
