@@ -15,35 +15,39 @@
             <a href="#">Sobre</a>
             <a href="#">Contato</a>
         </nav>
-        <div class="buscador">
-            <input type="search" name="buscar" id="boxfind">
-        </div>
     </header>
-    <form action="#" method="post">
-        <div class="forma"></div>
-        <div class="campo">
-            <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome">
+    <main>
+        <form action="#" method="post">
+            <div class="forma"></div>
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div class="campo">
+                <label class="sexo">
+                    <input type="radio" name="sexo" value="masculino">
+                    Masculino
+                </label>
+                <label class="sexo">
+                    <input type="radio" name="sexo" value="feminino">
+                    Feminino
+                </label>
+            </div>
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone">
+            </div>
+            <div class="campo"><button type="submit" name="submit">Enviar</button></div>
+        </form>
+        <div class="textos">
+            <h1>Olá, seja bem-vindo(a) ao meu portfólio</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, voluptatum! Aut quisquam fuga optio eum voluptatum deserunt iure possimus et velit inventore dignissimos assumenda ipsa, quia vitae, voluptatibus, non dolore? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nemo ipsum adipisci repudiandae necessitatibus nihil animi reiciendis placeat assumenda suscipit maxime laboriosam saepe natus cum, est facere tempora totam corporis.</p>
         </div>
-        <div class="campo">
-            <label class="sexo">
-                <input type="radio" name="sexo" value="masculino">
-                Masculino
-            </label>
-            <label class="sexo">
-                <input type="radio" name="sexo" value="feminino">
-                Feminino
-            </label>
-        </div>
-        <div class="campo">
-            <label for="email">Email</label>
-            <input type="email" id="email">
-        </div>
-        <div class="campo">
-            <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone">
-        </div>
-        <div class="campo"><button type="submit" name="submit">Enviar</button></div>
-    </form>
+    </main>
+    
 </body>
 </html>
